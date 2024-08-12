@@ -38,8 +38,11 @@ body{
 
 .bottom{
   padding:10px ;
-  background-color:  rgb(182, 36, 36);
+  background-color:  rgb(189, 11, 11);
   padding-top: 30px;
+  justify-content: center;
+
+  
 
 }
 .input-group{
@@ -49,7 +52,7 @@ body{
 
 .form-control:focus{
   border-color: rgb(20, 213, 220);
-  background-color:  rgb(182, 36, 36);
+  background-color:  rgb(218, 41, 41);
   outline: 0;
   box-shadow: none;
   color:rgb(18, 35, 36);
@@ -57,4 +60,8 @@ body{
 .button{
   background-color: crimson;
   border-radius: 16px;
+}
+#payButton{
+  border-radius: 16px;
+  background-color: rgb(146, 129, 129);
 }
